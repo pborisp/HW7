@@ -31,5 +31,33 @@ public class Main {
             System.out.print(mas3[i] + ", ");
         }
         System.out.println();
+        System.out.println();
+
+        // Задача №3
+        System.out.println("Задача №3:");
+        for (int i = mas1.length-1; i >= 0; i--) {
+            if (i == 0) {
+                System.out.print(mas1[i]);
+                break;
+            }
+            System.out.print(mas1[i] + ", ");
+        }
+        System.out.println();
+        for (int i = mas2.length - 1; i >= 0; i--) {
+            if (i == 0) {
+                System.out.print(mas2[i]);
+                break;
+            }
+            System.out.print(mas2[i] + ", ");
+        }
+        System.out.println();
+        for (int i = mas3.length - 1; i >= 0; i--) {
+            if (i == 0) {
+                System.out.print(mas3[i]);
+                break;
+            }
+            System.out.print(mas3[i] + ", ");
+        }
+        System.out.println();
     }
 }
